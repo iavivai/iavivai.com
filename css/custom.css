@@ -6,11 +6,8 @@
   flex-wrap: wrap;
 }
 
-.header a {
+.header a, a:visited {
   text-decoration: none;
-}
-
-.header a:visited {
   color: #444;
 }
 
