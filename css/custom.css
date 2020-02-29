@@ -6,9 +6,9 @@
   flex-wrap: wrap;
 }
 
-.header a, a:visited {
+.header a {
   text-decoration: none;
-  color: #444;
+  color: #444;margin-bottom
 }
 
 .header a:hover {
@@ -125,7 +125,7 @@ a.button {
     margin: 50px auto;
   }
 
-  .button {
+  a.button {
     margin-bottom: 40px;
   }
 
