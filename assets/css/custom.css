@@ -37,13 +37,22 @@ nav {
   font-size: 30px;
 }
 
+.footer {
+  border-top: solid;
+}
+
+.copyright {
+  text-align: center;
+  margin: 20px auto;
+}
+
 .title {
   text-align: center;
   margin: 50px auto;
 }
 
 .home {
-  margin: 200px 0;
+  margin: 180px 0;
   text-align: center;
 }
 
