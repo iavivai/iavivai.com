@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+html {
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 18px;
+  color: #444;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}

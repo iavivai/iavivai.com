@@ -1,9 +1,15 @@
-<a href="/">iavivai.com</a>
+<header class="header">
+  <div class="logo"><a href="/">iavivai.com</a></div>
 
-<nav>
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link }}">
-      {{ item.name }}
-    </a>
-  {% endfor %}
-</nav>
+  <nav>
+    <ul>
+      {% for item in site.data.navigation %}
+      <li>
+        <a href="{{ item.link }}">
+          {{ item.name }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
