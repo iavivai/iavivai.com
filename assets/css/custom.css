@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .header a {
@@ -17,17 +18,22 @@
   opacity: 0.5;
 }
 
+nav {
+  width: 30%;
+  margin: 0;
+}
+
 .header ul {
   display: flex;
+  justify-content: space-between;
 }
 
 .header li {
-  margin-left: 40px;
   display: inline;
+  font-size: 22px;
 }
 
 .logo {
-  margin-right: auto;
   font-size: 30px;
 }
 
@@ -44,6 +50,14 @@
 .greeting {
   font-size: 80px;
   margin: 50px auto;
+}
+
+.button-group {
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
 }
 
 .button {
@@ -74,4 +88,46 @@
 
 .icon {
   width: 80%;
+}
+
+@media (max-width: 768px) {
+  body {
+    max-width: 90%;
+  }
+
+  .header {
+    margin-top: 0;
+  }
+
+  nav {
+    width: 40%;
+    margin: 0;
+  }
+
+  .header ul {
+    padding: 0;
+  }
+
+  .home {
+    margin: 100px 0;
+    text-align: center;
+  }
+
+  .greeting {
+    font-size: 50px;
+    margin: 50px auto;
+  }
+
+  .button {
+    margin-bottom: 40px;
+  }
+
+  .about-img {
+    width: 80%;
+    margin: auto;
+  }
+
+  .icon {
+    width: 100%;
+  }
 }
