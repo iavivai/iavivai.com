@@ -93,6 +93,10 @@ a.button {
   display: inline-block;
 }
 
+.about-txt {
+  width: 50%;
+}
+
 .icon {
   width: 80%;
 }
@@ -132,6 +136,10 @@ a.button {
   .about-img {
     width: 80%;
     margin: auto;
+  }
+
+  .about-txt {
+    width: 100%;
   }
 
   .icon {
