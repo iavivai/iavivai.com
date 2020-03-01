@@ -11,3 +11,9 @@ plugins:
   - jekyll-seo-tag
 
 google_analytics: UA-146131644-2
+
+defaults:
+- scope:
+    path: ''
+  values:
+    image: "/images/iavivai.jpeg"
