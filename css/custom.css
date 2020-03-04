@@ -1,3 +1,4 @@
+/* header */
 .header {
   margin: 30px auto;
   display: flex;
@@ -34,6 +35,7 @@ nav {
   font-size: 30px;
 }
 
+/* footer */
 .footer {
   border-top: solid;
   margin-top: 30px;
@@ -44,6 +46,7 @@ nav {
   margin: 20px auto;
 }
 
+/* home */
 .title {
   text-align: center;
   margin: 50px auto;
@@ -82,6 +85,7 @@ a.button {
   opacity: 0.5;
 }
 
+/* about */
 .about-content {
   display: flex;
   justify-content: space-between;
@@ -99,6 +103,18 @@ a.button {
 
 .icon {
   width: 80%;
+}
+
+/* post */
+.post-title {
+  margin-top: 0;
+  border-bottom: solid;
+}
+
+.post-content img {
+  max-width: 80%;
+  margin: 0 auto;
+  display: block;
 }
 
 @media (max-width: 768px) {
@@ -144,5 +160,9 @@ a.button {
 
   .icon {
     width: 100%;
+  }
+
+  .post-content img {
+    max-width: 100%;
   }
 }
