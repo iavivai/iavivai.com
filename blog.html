@@ -4,8 +4,11 @@ title: Blog
 ---
 
 <h1 class="title">Blog</h1>
-<p>
-  記事はまだ移動させてないので
-  <a href="https://yukitakaiha.com/articles" target="_blank">前のブログ</a>
-  から見てください:)
-</p>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
