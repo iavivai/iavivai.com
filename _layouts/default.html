@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="{{ '/css/custom.css' | relative_url }}">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <link rel="icon" href="/images/favicon.ico">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146131644-2"></script>
-    <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
 
-     gtag('config', {{ site.google_analytics }});
-    </script>
+    {% if jekyll.environment == 'production' %}
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146131644-2"></script>
+      <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+
+       gtag('config', {{ site.google_analytics }});
+      </script>
+    {% endif %}
 
     {% seo %}
   </head>
