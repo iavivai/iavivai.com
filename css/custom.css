@@ -118,7 +118,8 @@ a.button {
 
 .post-content img {
   max-width: 80%;
-  margin: 0 auto;
+  max-height: 600px;
+  margin: 10px auto;
   display: block;
 }
 
