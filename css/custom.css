@@ -111,10 +111,14 @@ a.button {
 }
 
 .link {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 /* post */
+.item {
+  margin: 12px 0;
+}
+
 .post-title {
   margin-top: 0;
   border-bottom: solid;
