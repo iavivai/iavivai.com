@@ -110,6 +110,10 @@ a.button {
   width: 80%;
 }
 
+.link {
+  font-size: 22px;
+}
+
 /* post */
 .post-title {
   margin-top: 0;
