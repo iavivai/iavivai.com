@@ -1,8 +1,8 @@
-title: iavivai.com
-description: "@iavivai's personal site"
-url: https://iavivai.com
-image: /images/iavivai.jpeg
-logo: /images/iavivai.jpeg
+title: utakaha.com
+description: "utakaha's personal site"
+url: https://utakaha.com
+image: /images/utakaha.jpeg
+logo: /images/utakaha.jpeg
 syntax_highlighter: rouge
 lang: ja_JP
 
@@ -19,4 +19,4 @@ defaults:
 - scope:
     path: ''
   values:
-    image: "/images/iavivai.jpeg"
+    image: "/images/utakaha.jpeg"
